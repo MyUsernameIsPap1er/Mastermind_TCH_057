@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- Static Email Label -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Utilisateur : "
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:padding="16dp"/>
+
+    <!-- Dynamic Email -->
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dynamicemail"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:padding="16dp"/>
+
+    <!-- Static Game Result Label -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultat : "
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:padding="16dp"/>
+
+    <!-- Dynamic Game Result -->
+    <TextView
+        android:id="@+id/textViewGameResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dynamicgameresult"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:padding="16dp"/>
+
+    <!-- Dynamic Turns Played / Turns Allowed -->
+    <TextView
+        android:id="@+id/textViewTurns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dynamicturnsplayed / dynamicturnsallowed"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:padding="16dp"/>
+
+    <!-- Static Number of Color Label -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre de Couleurs : "
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:padding="16dp"/>
+
+    <!-- Dynamic Number of Colors -->
+    <TextView
+        android:id="@+id/textViewNumColors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dynamicnumberofcolors"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:padding="16dp"/>
+
+
+</LinearLayout>
